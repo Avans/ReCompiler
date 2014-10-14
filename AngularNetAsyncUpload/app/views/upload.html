@@ -1,0 +1,13 @@
+<div ng-controller="UploadCtrl">
+
+
+    <h2>Test your software!</h2>
+
+    <input type="file" ng-file-select="onFileSelect($files)" multiple>
+
+
+    <div ng-show="resultId != null">
+        The new result is saved with the Id {{resultId}}
+    </div>
+
+</div>
